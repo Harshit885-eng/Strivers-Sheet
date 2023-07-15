@@ -1,0 +1,23 @@
+int dataTypes(string c)
+{
+  if(c=="Integer")
+  {
+    return 4;
+  }
+  if(c=="Long")
+  {
+    return 8;
+  }
+  if(c=="Float")
+  {
+    return 4;
+  }
+  if(c=="Double")
+  {
+    return 8;
+  }
+  if(c=="Character")
+  {
+    return 1;
+  }
+}
