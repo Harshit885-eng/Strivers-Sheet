@@ -1,0 +1,15 @@
+int sumOfAllDivisors(int n){
+	int sumofdivisor=0;
+	for(int i=1;i<=n;i++)
+	{   
+		int result=i;
+        while(result>0){
+         if(i%result==0)
+		 {
+			 sumofdivisor+=result;
+		 }
+		 result--;
+		}
+	}
+	return sumofdivisor;
+}
