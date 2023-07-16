@@ -1,0 +1,11 @@
+int sumFirstN(int n) {
+    int sum=0;
+    //base case
+    if (n == 1) 
+    {
+      return 1;
+    }
+
+    sum = n + sumFirstN(n - 1);
+    return sum;
+}
